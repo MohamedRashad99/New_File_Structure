@@ -1,0 +1,59 @@
+name: queen_file_structure
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  nations: ^0.0.4
+  queen_themes:
+    git:
+      url: https://github.com/FlutterQueen/queen_themes
+  carousel_slider: ^4.0.0
+  charts_flutter: ^0.11.0
+  dio: ^4.0.0
+  drawer_swipe: ^0.0.4
+  fcm_config: ^3.0.5
+  flutter_circular_chart: ^0.1.0
+  #flutter_country_picker: ^0.1.6
+  flutter_spinkit: ^5.0.0
+  fluttertoast: ^8.0.7
+  font_awesome_flutter: ^9.1.0
+  #geocoder: ^0.2.1
+  get: ^4.3.8
+  google_fonts: ^2.1.0
+  google_maps_flutter: ^2.0.1
+  location: ^4.2.0
+  logging: ^1.0.1
+  percent_indicator: ^3.3.0-nullsafety.1
+  polygon_clipper: ^1.0.2
+  pretty_dio_logger: ^1.1.1
+  rolling_nav_bar: ^0.0.5-nullsafety.3
+  smooth_page_indicator: ^0.2.3
+  smooth_star_rating: ^1.1.1
+  table_calendar: ^3.0.1
+  url_launcher: ^6.0.5
+  wave: ^0.2.0
+  #qrcode_reader: ^0.4.4
+  flutter_barcode_scanner: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lang/
+    - assets/images/users/
+    - assets/images/logos/
