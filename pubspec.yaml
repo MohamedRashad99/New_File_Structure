@@ -57,3 +57,14 @@ flutter:
     - assets/lang/
     - assets/images/users/
     - assets/images/logos/
+  fonts:
+    - family: dinnextl bold
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Bold-2.ttf
+    - family: dinnextl medium
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Medium-2.ttf
+    - family: dinnextl regular
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Regular-2.ttf
+
